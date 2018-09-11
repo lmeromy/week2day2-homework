@@ -38,4 +38,12 @@ class BearsTest < Minitest::Test
     assert_equal(0, @river1.fish_count())
   end
 
+### Extension ####
+
+  def test_roar
+    assert_equal("ROAR!", @bear1.roar())
+  end
+
+  # food_count method is fish_in_belly()
+
 end

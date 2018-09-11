@@ -21,4 +21,12 @@ class Bear
     river.fish_take_away(fishdinner)
   end
 
+  ### Extension ###
+
+  def roar()
+      return "ROAR!"
+  end
+
+  # food_count method is fish_in_belly()
+
 end

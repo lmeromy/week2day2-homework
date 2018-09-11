@@ -18,4 +18,5 @@ class River
     @river_fish_content.delete(fish)
   end
 
+# fish_count method already exists!
 end

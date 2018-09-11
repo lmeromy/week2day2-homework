@@ -36,4 +36,6 @@ class RiversTest < Minitest::Test
     assert_equal(2, @river.fish_count())
   end
 
+  # fish_count method already exists!
+
 end
